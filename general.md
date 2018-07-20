@@ -85,4 +85,4 @@ bash tcp_nanqinlang-1.3.2.sh
 
 
 ## 相关 issue
-https://github.com/nanqinlang/sometimesnaive.org/issues/6
+https://github.com/sometimesnaiveorg/mainland/issues/6
