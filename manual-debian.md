@@ -109,4 +109,4 @@ tcp_nanqinlang    6053  18
 
 
 ## 相关 issue
-https://github.com/nanqinlang/sometimesnaive.org/issues/63
+https://github.com/sometimesnaiveorg/mainland/issues/63
