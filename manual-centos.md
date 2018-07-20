@@ -90,4 +90,4 @@ tcp_nanqinlang  7014  23
 ```
 
 ## 相关 issue
-https://github.com/nanqinlang/sometimesnaive.org/issues/50
+https://github.com/sometimesnaiveorg/mainland/issues/50
