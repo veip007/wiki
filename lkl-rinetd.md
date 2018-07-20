@@ -60,4 +60,4 @@ bash tcp_nanqinlang-rinetd-centos-multiNIC.sh
 运行此命令会删除 /home/tcp_nanqinlang 、移除 rc.local 对应开机自启项和清空 iptables raw 表。属于完整卸载，不会有残留。且卸载后无需重启。
 
 ## 参考 issue
-https://github.com/nanqinlang/sometimesnaive.org/issues/85
+https://github.com/sometimesnaiveorg/mainland/issues/85
