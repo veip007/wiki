@@ -1,4 +1,3 @@
-Welcome to the wiki wiki!
 
 ## 脚本 for KVM
 https://github.com/veip007/wiki/blob/master/general.md
