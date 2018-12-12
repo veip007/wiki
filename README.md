@@ -1,7 +1,7 @@
 Welcome to the wiki wiki!
 
 ## 传送门合集
-https://github.com/tcp-nanqinlang/wiki/wiki/portal
+https://github.com/veip007/wiki/blob/master/yours.md
 
 ## 脚本 for KVM
 https://github.com/tcp-nanqinlang/wiki/wiki/general
