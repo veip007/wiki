@@ -30,13 +30,13 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general
 ```bash
 # Debian 7+
 # 正常进阶版本
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.2.1.sh && chmod +x tcp_nanqinlang-pro-3.4.2.1.sh && bash tcp_nanqinlang-pro-3.4.2.1.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.5.1.sh && chmod +x tcp_nanqinlang-pro-3.4.5.1.sh && bash tcp_nanqinlang-pro-3.4.5.1.sh
 ```
 
 ```bash
 # Debian 7+
 # 无检测进阶版本
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.2.1-nocheckvirt.sh && chmod +x tcp_nanqinlang-pro-3.4.2.1-nocheckvirt.sh && bash tcp_nanqinlang-pro-3.4.2.1-nocheckvirt.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.5.1-nocheckvirt.sh && chmod +x tcp_nanqinlang-pro-3.4.5.1-nocheckvirt.sh && bash tcp_nanqinlang-pro-3.4.5.1-nocheckvirt.sh
 ```
 
 这个是 `CentOS` 平台的版本，仍未确定为正式版，请勿在重要环境使用。
