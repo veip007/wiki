@@ -12,9 +12,16 @@
 # Debian 8+
 # 64 bit
 # ldd > = 2.14
-# tun/tap enabled
-wget https://github.com/tcp-nanqinlang/lkl-haproxy/releases/download/1.1.1/tcp_nanqinlang-haproxy-debian.sh
-bash tcp_nanqinlang-haproxy-debian.sh
+# tun/tap enabled  正常版
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-haproxy/master/tcp_nanqinlang-haproxy-debian.sh && chmod +x tcp_nanqinlang-haproxy-debian.sh && tcp_nanqinlang-haproxy-debian.sh
+```
+
+```bash
+# Debian 8+
+# 64 bit
+# ldd > = 2.14
+# tun/tap enabled  无检测板
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-haproxy/master/tcp_nanqinlang-haproxy-debian-nocheckvirt.sh && chmod +x tcp_nanqinlang-haproxy-debian-nocheckvirt.sh && tcp_nanqinlang-haproxy-debian-nocheckvirt.sh
 ```
 
 以下适用于 CentOS 7 环境：
@@ -22,11 +29,17 @@ bash tcp_nanqinlang-haproxy-debian.sh
 # CentOS 7
 # 64 bit
 # ldd > = 2.14
-# tun/tap enabled
-wget https://github.com/tcp-nanqinlang/lkl-haproxy/releases/download/1.1.1/tcp_nanqinlang-haproxy-centos.sh
-bash tcp_nanqinlang-haproxy-centos.sh
+# tun/tap enabled 正常版
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-haproxy/master/tcp_nanqinlang-haproxy-centos.sh && chmod +x tcp_nanqinlang-haproxy-centos.sh && tcp_nanqinlang-haproxy-centos.sh
 ```
 
+```bash
+# CentOS 7
+# 64 bit
+# ldd > = 2.14
+# tun/tap enabled 无检测版
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-haproxy/master/tcp_nanqinlang-haproxy-centos-nocheckvirt.sh && chmod +x tcp_nanqinlang-haproxy-centos-nocheckvirt.sh && tcp_nanqinlang-haproxy-centos-nocheckvirt.sh
+```
 
 ## 使用说明
 以下进行脚本使用说明：
