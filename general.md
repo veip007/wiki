@@ -43,8 +43,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general
 ```bash
 # CentOS 6/7
 # only 64 bit
-wget https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-1.3.2.sh
-bash tcp_nanqinlang-1.3.2.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-1.3.2.sh && chmod +x tcp_tcp_nanqinlang-1.3.2.sh && bash tcp_nanqinlang-1.3.2.sh
 ```
 
 
