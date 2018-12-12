@@ -16,26 +16,42 @@
 ### Debian or Ubuntu
 适用于 `单网卡（单 IP）` 服务器：
 ```bash
-wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-debianorubuntu.sh
-bash tcp_nanqinlang-rinetd-debianorubuntu.sh
+#正常版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-debianorubuntu.sh && chmod +x tcp_nanqinlang-rinetd-debianorubuntu.sh && tcp_nanqinlang-rinetd-debianorubuntu.sh
 ```
+
+```bash
+#无检测版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-debianorubuntu-nocheckvirt.sh && chmod +x tcp_nanqinlang-rinetd-debianorubuntu-nocheckvirt.sh && tcp_nanqinlang-rinetd-debianorubuntu-nocheckvirt.sh
+```
+
 
 适用于 `多网卡（多 IP）` 服务器，会为所有网卡（所有 IP）提供加速：
 ```bash
-wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh
-bash tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh
+#正常版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh && chmod +x tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh && tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh
+```
+
+```bash
+#无检测版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-debianorubuntu-nocheckvirt-multiNIC.sh && chmod +x tcp_nanqinlang-rinetd-debianorubuntu-nocheckvirt-multiNIC.sh && tcp_nanqinlang-rinetd-debianorubuntu-nocheckvirt-multiNIC.sh
 ```
 
 ### CentOS 7
 和上面一样，也分 单网卡 和 多网卡 版本：
 ```bash
-# 单网卡
-wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-centos.sh
-bash tcp_nanqinlang-rinetd-centos.sh
+# 单网卡（正常版）
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-centos.sh && chmod +x tcp_nanqinlang-rinetd-centos.sh && tcp_nanqinlang-rinetd-centos.sh
 
-# 多网卡
-wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-centos-multiNIC.sh
-bash tcp_nanqinlang-rinetd-centos-multiNIC.sh
+# 单网卡（无检测版）
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-centos-nocheckvirt.sh && chmod +x tcp_nanqinlang-rinetd-centos-nocheckvirt.sh && tcp_nanqinlang-rinetd-centos-nocheckvirt.sh
+
+# 多网卡（正常版）
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-centos-multiNIC.sh && chmod +x tcp_nanqinlang-rinetd-centos-multiNIC.sh && tcp_nanqinlang-rinetd-centos-multiNIC.sh
+
+# 多网卡（无检测版）
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/lkl-rinetd/master/tcp_nanqinlang-rinetd-centos-nocheckvirt-multiNIC.sh && chmod +x tcp_nanqinlang-rinetd-centos-nocheckvirt-multiNIC.sh  && tcp_nanqinlang-rinetd-centos-nocheckvirt-multiNIC.sh 
+
 ```
 
 
