@@ -17,7 +17,7 @@ BBR 是出自谷歌员工之手的应用于 Linux 内核中的拥塞控制技术
 ```bash
 # Debian 7+
 # fool
-wget https://github.com/veip007/general/releases/download/3.4.2.1/tcp_nanqinlang-fool-1.3.0.sh
+wget https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-fool-1.3.0.sh
 bash tcp_nanqinlang-fool-1.3.0.sh
 ```
 
@@ -25,7 +25,7 @@ bash tcp_nanqinlang-fool-1.3.0.sh
 ```bash
 # Debian 7+
 # pro
-wget https://github.com/veip007/general/releases/download/3.4.2.1/tcp_nanqinlang-pro-3.4.2.1.sh
+wget https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.2.1.sh
 bash tcp_nanqinlang-pro-3.4.2.1.sh
 ```
 
@@ -33,7 +33,7 @@ bash tcp_nanqinlang-pro-3.4.2.1.sh
 ```bash
 # CentOS 6/7
 # only 64 bit
-wget https://raw.githubusercontent.com/veip007/general/master/General/CentOS/bash/tcp_nanqinlang-1.3.2.sh
+wget https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-1.3.2.sh
 bash tcp_nanqinlang-1.3.2.sh
 ```
 
