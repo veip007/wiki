@@ -16,17 +16,27 @@ BBR 是出自谷歌员工之手的应用于 Linux 内核中的拥塞控制技术
 这个是 `新手简装` 版本，只需 `运行脚本第一项+重启+运行脚本第二项`。一般用户只需使用此版本，并建议使用该版本。此版本不需要编译的过程，直接安装 v4.10.2 内核。
 ```bash
 # Debian 7+
-# fool
-wget https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-fool-1.3.0.sh
-bash tcp_nanqinlang-fool-1.3.0.sh
+# 正常版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-fool-1.3.0.sh && chmod +x tcp_nanqinlang-fool-1.3.0.sh && bash tcp_nanqinlang-fool-1.3.0.sh
 ```
+```bash
+# Debian 7+
+# 无检测版
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-fool-1.3.0-nocheckvirt.sh && chmod +x tcp_nanqinlang-fool-1.3.0-nocheckvirt.sh && bash tcp_nanqinlang-fool-1.3.0-nocheckvirt.sh
+```
+
 
 这个是 `进阶` 版本。提供自定义内核版本功能，只建议有`用户自己指定安装的内核的版本`需求的用户使用，例如你想安装 v4.12.10 版本的内核，就需要使用这个版本。目前此版本脚本提供 linux kernel `v4.9.3 ~ v4.14.32` 支持。
 ```bash
 # Debian 7+
-# pro
-wget https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.2.1.sh
-bash tcp_nanqinlang-pro-3.4.2.1.sh
+# 正常进阶版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.2.1.sh && chmod +x tcp_nanqinlang-pro-3.4.2.1.sh && bash tcp_nanqinlang-pro-3.4.2.1.sh
+```
+
+```bash
+# Debian 7+
+# 无检测进阶版本
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/general/master/tcp_nanqinlang-pro-3.4.2.1-nocheckvirt.sh && chmod +x tcp_nanqinlang-pro-3.4.2.1-nocheckvirt.sh && bash tcp_nanqinlang-pro-3.4.2.1-nocheckvirt.sh
 ```
 
 这个是 `CentOS` 平台的版本，仍未确定为正式版，请勿在重要环境使用。
