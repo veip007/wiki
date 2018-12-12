@@ -80,8 +80,8 @@ bash tcp_nanqinlang-1.3.2.sh
 
 ## 手动教程
 以下是 Debian or CentOS 的手动安装的教程：
-- https://github.com/veip007/wiki/wiki/manual-debian
-- https://github.com/veip007/wiki/wiki/manual-centos
+- https://github.com/veip007/wiki/blob/master/manual-debian.md
+- https://github.com/veip007/wiki/blob/master/manual-centos.md
 
 
 ## 相关 issue
