@@ -75,8 +75,8 @@ linux-kernel-ml-headers-4.12.10-1
 ```bash
 yum groupinstall -y "Development Tools"
 
-wget https://raw.githubusercontent.com/tcp-nanqinlang/general/master/General/CentOS/source/tcp_nanqinlang.c
-wget -O Makefile https://raw.githubusercontent.com/tcp-nanqinlang/general/master/Makefile/Makefile-CentOS
+wget https://raw.githubusercontent.com/veip007/general/master/General/CentOS/source/tcp_nanqinlang.c
+wget -O Makefile https://raw.githubusercontent.com/veip007/general/master/Makefile/Makefile-CentOS
 make && make install
 
 sed -i '/net\.ipv4\.tcp_congestion_control/d' /etc/sysctl.conf
